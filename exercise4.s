@@ -1,3 +1,12 @@
+
+#Read a number and print the following format:
+#    1
+#    1 2
+#    1 2 3
+#    1 2 3 4
+#    .....
+#    1 2 3 4 5 .... N
+
   .data
 line: .asciiz "\n"
   .text
@@ -5,7 +14,7 @@ line: .asciiz "\n"
 
 main:
 
-  li $v0 5                        #Scan int
+  li $v0 5                        #read int
   syscall
   move $t0 $v0                    #Save number
 

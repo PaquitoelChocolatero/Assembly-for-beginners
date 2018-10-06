@@ -1,3 +1,6 @@
+
+#Print the result of reading two numbers and adding them squared
+
   .data
 
   .text
@@ -18,7 +21,7 @@ scan:
   add $t2 $t2, $v0      #Add the result to the solution
   addi $t1 $t1, 1       #Increment the meter
 
-  ble $t1, $t0 scan     #If the meter is lower than the first number go back
+  ble $t1, $t0 scan     #If the meter is lower than the desired numbers to read go back
 
   move $a0, $t2         #Print the solution
   li $v0, 1

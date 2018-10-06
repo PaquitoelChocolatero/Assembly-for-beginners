@@ -1,4 +1,7 @@
-  .data                                #Posible results
+
+#Read a number and print even or odd
+
+  .data                                #Posible outcomes
 m_e: .asciiz "The number is even"
 m_ne: .asciiz "The number is odd"
 

@@ -1,3 +1,6 @@
+
+#Read two numbers and print wich is the greater
+
   .data                                 #Posible results
 greater: .asciiz " is greater than "
 equal: .asciiz   " is equal to "
