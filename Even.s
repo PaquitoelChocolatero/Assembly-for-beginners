@@ -1,5 +1,5 @@
 
-#Read a number and print even or odd
+# Is the number even?
 
   .data                                #Posible outcomes
 m_e: .asciiz "The number is even"

@@ -1,5 +1,5 @@
 
-#Read a number and print the following format:
+# Read a number and print the following format:
 #    1
 #    1 2
 #    1 2 3

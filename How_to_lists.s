@@ -1,12 +1,9 @@
 
-#Translate:
-#  for(int i = 0 ; i < N ; i++){
-#    if(v[i]==0) c++;
-#  }
+# Go through a given list and  check if the element is 0
 #
-#i ----> $t0
-#$a0 --> Direction of the first element
-#$a1 --> Length of the list
+# i ----> $t0
+# $a0 --> Direction of the first element
+# $a1 --> Length of the list
 
   .data
 
