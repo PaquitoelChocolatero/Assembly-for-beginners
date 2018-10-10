@@ -1,0 +1,7 @@
+
+Upper_to_lower:
+  *See ascii table, to Upper-->Lower add 32 to the ascii value,
+   substract to go the oposite way
+
+  *To check if two ascii characters are the same ('A', 'a')
+   do the absolute value of the substraction of both, it should be 32
