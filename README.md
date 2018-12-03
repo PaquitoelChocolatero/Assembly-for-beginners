@@ -1,11 +1,13 @@
 # Assembly for Beginners
 In this repository you will find a beginner's guide to MIPS programming
 
-##Compiling
+## Compiling
 Assembly files use the ".s" extension
 
 We recommend QtSpim:
 https://sourceforge.net/projects/spimsimulator/files/
+
+![alt text](https://raw.githubusercontent.com/PaquitoElChocolatero/Assembly-for-beginners/images/Qtspim)
 
 But you can also use MARS:
 https://courses.missouristate.edu/KenVollmar/MARS/download.htm
