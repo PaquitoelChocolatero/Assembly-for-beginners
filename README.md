@@ -7,7 +7,7 @@ Assembly files use the ".s" extension
 We recommend QtSpim:
 https://sourceforge.net/projects/spimsimulator/files/
 
-![alt text](https://raw.githubusercontent.com/PaquitoElChocolatero/Assembly-for-beginners/images/Qtspim)
+![alt text](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/images/Qtspim.jpg)
 
 But you can also use MARS:
 https://courses.missouristate.edu/KenVollmar/MARS/download.htm
