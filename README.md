@@ -7,7 +7,7 @@ Assembly files use the ".s" extension
 We recommend QtSpim:<br />
 https://sourceforge.net/projects/spimsimulator/files/
 
-![alt text](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/images/Qtspim.jpg)
+![alt text](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/images/Qtspim.jpg)<br />
 From the top you can find in orange the reset and open option. It is very important that before every compilation you restore the registers and data.<br />
 In blue there are the play, pause and stop controls, used to run the program. Followed by the step by step control (in yellow) which will be very useful when debugging.<br />
 At the bottom in green are the registers of our processor, they will be filled with whatever you load them with.<br />
