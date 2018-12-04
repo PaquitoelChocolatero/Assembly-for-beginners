@@ -32,8 +32,9 @@ In Mars you can write your code in de Edit Window, or load your '.s' file, click
 
 <hr>
 ## Credits:
-- [Guillermo Bautista](https://github.com/Fortesque73)<br />
-- [Alejandro de la Torre](https://github.com/Xartrex)<br/ >
-- [Juan Francisco García](https://github.com/hielo99)<br / >
-- [Juan Banga](https://github.com/Juanbanpar)<br / >
+
+- [Guillermo Bautista](https://github.com/Fortesque73)
+- [Alejandro de la Torre](https://github.com/Xartrex)
+- [Juan Francisco García](https://github.com/hielo99)
+- [Juan Banga](https://github.com/Juanbanpar)
 - [Alejandro de la Cruz](https://github.com/PaquitoElChocolatero)
