@@ -18,9 +18,9 @@ And last but not least, in red, the instructions. This is a visual way to know t
 
 You can also use [MARS](https://courses.missouristate.edu/KenVollmar/MARS/download.htm)<br />
 For executing it:
-'''
+```
 java Mars
-'''
+```
 <br />
 ![alt text](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/images/Mars.jpg)<br />
 
