@@ -1,4 +1,5 @@
 # Assembly for Beginners
+[![HitCount](http://hits.dwyl.io/PaquitoElChocolatero/Assembly-for-beginners.svg)](http://hits.dwyl.io/PaquitoElChocolatero/Assembly-for-beginners)<br />
 In this repository you will find a beginner's guide to MIPS programming
 
 ## Getting Started
