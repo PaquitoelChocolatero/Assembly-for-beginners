@@ -30,7 +30,7 @@ In Mars you can write your code in de Edit Window, or load your '.s' file, click
 
 1. [Basic Operations](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Basic_operations.s)
 
-<hr>
+
 ## Credits:
 
 - [Guillermo Bautista](https://github.com/Fortesque73)
