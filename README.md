@@ -22,7 +22,7 @@ For executing it:
 java Mars
 '''
 <br />
-![alt text](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/images/Qtspim.jp)<br />
+![alt text](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/images/Mars.jpg)<br />
 
 In Mars you can write your code in de Edit Window, or load your '.s' file, going on File>Open and looking for your file. For compiling it click on Run>Assemble or use the shortcut F3. Then you will enter on the Execute window, where you can run it completely or step by step, with the green play button placed in the top.
 <br />
@@ -31,6 +31,6 @@ In Mars you can write your code in de Edit Window, or load your '.s' file, going
 
 1. [Basic Operations](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Basic_operations.s)
 
-
 <hr>
+
 By [Guillermo Bautista](https://github.com/Fortesque73), [Alejandro de la Torre](https://github.com/Xartrex), [Juan Francisco García](https://github.com/hielo99), [Juan Banga](https://github.com/Juanbanpar) and [Alejandro de la Cruz](https://github.com/PaquitoElChocolatero)
