@@ -7,7 +7,7 @@ Assembly files use the ".s" extension
 
 ### Compiling with QTSpim
 
-We recommend [QtSpim](https://sourceforge.net/projects/spimsimulator/files/) <br />
+We recommend [QtSpim](https://sourceforge.net/projects/spimsimulator/files/): <br />
 
 ![alt text](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/images/Qtspim.jpg)<br />
 From the top you can find in orange the reset and open option. It is very important that before every compilation you restore the registers and data.<br />
@@ -17,7 +17,7 @@ And last but not least, in red, the instructions. This is a visual way to know t
 
 ### Compiling with Mars
 
-You can also use [MARS](https://courses.missouristate.edu/KenVollmar/MARS/download.htm). For executing it:
+You can also use [MARS](https://courses.missouristate.edu/KenVollmar/MARS/download.htm). In order to execute it:
 ```
 java Mars
 ```
@@ -31,5 +31,9 @@ In Mars you can write your code in de Edit Window, or load your '.s' file, click
 1. [Basic Operations](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Basic_operations.s)
 
 <hr>
-
-By [Guillermo Bautista](https://github.com/Fortesque73), [Alejandro de la Torre](https://github.com/Xartrex), [Juan Francisco García](https://github.com/hielo99), [Juan Banga](https://github.com/Juanbanpar) and [Alejandro de la Cruz](https://github.com/PaquitoElChocolatero)
+## Credits:
+- [Guillermo Bautista](https://github.com/Fortesque73)<br />
+- [Alejandro de la Torre](https://github.com/Xartrex)<br/ >
+- [Juan Francisco García](https://github.com/hielo99)<br / >
+- [Juan Banga](https://github.com/Juanbanpar)<br / >
+- [Alejandro de la Cruz](https://github.com/PaquitoElChocolatero)
