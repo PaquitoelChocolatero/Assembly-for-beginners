@@ -16,14 +16,13 @@ And last but not least, in red, the instructions. This is a visual way to know t
 
 ### Compiling with Mars
 
-You can also use [MARS](https://courses.missouristate.edu/KenVollmar/MARS/download.htm)<br />
-For executing it:
+You can also use [MARS](https://courses.missouristate.edu/KenVollmar/MARS/download.htm). For executing it:
 ```
 java Mars
 ```
 ![alt text](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/images/Mars.jpg)<br />
 
-In Mars you can write your code in de Edit Window, or load your '.s' file, going on File>Open and looking for your file. For compiling it click on Run>Assemble or use the shortcut F3. Then you will enter on the Execute window, where you can run it completely or step by step, with the green play button placed in the top.
+In Mars you can write your code in de Edit Window, or load your '.s' file, clicking on File>Open and looking for your file. For compiling it click on Run>Assemble or use the shortcut F3. Then you will enter on the Execute window, where you can run it completely or step by step, with the green play button placed in the top.
 <br />
 
 ## Index of contents:
