@@ -4,6 +4,7 @@ In this repository you will find a beginner's guide to MIPS programming
 
 ## Getting Started
 Assembly files use the ".s" extension
+![#1589F0](https://placehold.it/15/1589F0/000000?text='tag') , ![#f03c15](https://placehold.it/15/f03c15/000000?text='rt1') , ![#f03c15](https://placehold.it/15/f03c15/000000?text='rt2') , ![#f03c15](https://placehold.it/15/f03c15/000000?text='rt3')
 
 ### Compiling with QTSpim
 

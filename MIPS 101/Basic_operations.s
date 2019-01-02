@@ -6,6 +6,7 @@
  .text
  .globl main
 main:
+
 	li $t0, 70               #Load each number into t registers
     li $t1, 37
 
