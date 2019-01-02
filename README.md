@@ -3,8 +3,12 @@
 In this repository you will find a beginner's guide to MIPS programming
 
 ## Getting Started
-Assembly files use the ".s" extension
-![#1589F0](https://placehold.it/15/1589F0/000000?text='tag') , ![#f03c15](https://placehold.it/15/f03c15/000000?text='rt1') , ![#f03c15](https://placehold.it/15/f03c15/000000?text='rt2') , ![#f03c15](https://placehold.it/15/f03c15/000000?text='rt3')
+Assembly files use the ".s" extension<br />
+<br />
+The structure is the following:<br />
+tag , dest , rs1 , rs2<br />
+<br />
+Where 'tag' is the desired instruction (add, li, move, etc.), 'dest' is the register where the result of the instruction (if it has one) goes and 'rs1' and 'rs2' are the two registers involving the operation
 
 ### Compiling with QTSpim
 
