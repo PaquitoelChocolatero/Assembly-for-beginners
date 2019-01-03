@@ -49,7 +49,7 @@ In Mars you can write your code in de Edit Window, or load your '.s' file, click
 
 ## Credits:
 
-- [Guillermo Bautista](https://github.com/Fortesque73)
+- [Guillermo Bautista-Abad](https://github.com/Fortesque73)
 - [Alejandro de la Torre](https://github.com/Xartrex)
 - [Juan Francisco García](https://github.com/hielo99)
 - [Juan Banga](https://github.com/Juanbanpar)
