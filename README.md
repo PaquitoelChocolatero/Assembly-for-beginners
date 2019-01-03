@@ -36,7 +36,7 @@ In Mars you can write your code in de Edit Window, or load your '.s' file, click
 ## Index of contents:
 1. [Guides](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/tree/master/Guides)
     - [Spanish](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Guides/MIPS_guide(Spanish).pdf)
-    - [English](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Guides/MIPS_guide(English).png)
+    - [English](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Guides/MIPS_guide(English).pdf)
 2. [MIPS 101](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/tree/master/MIPS%20101)
     - [Basic operations](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/MIPS%20101/Basic_operations.s)
     - [System calls](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/MIPS%20101/System_calls.s)
