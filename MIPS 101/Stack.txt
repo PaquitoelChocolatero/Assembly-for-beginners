@@ -1,0 +1,44 @@
+
+Another thing we can do is jump to functions just like we do in high level languages.
+
+For so we need an agreement over the registers we are using and what are their real function:
+    o $a0-$a3 are used for parameters we want to save
+    o $f12-$f15 are parameters that store double
+    o $t0-$t9 are temporary registers
+    o $v0-$v2 are the outcomes of the functions
+    o $s
+    o $ra is the register that automatically saves the exit position of the function
+    o $sp stores the current position in the stack
+    o $fp is another register in stack that stores the position
+
+In the 'Functions.s' example we will go through the procedure, but we need to understand first that when you jump to a subroutine every register except $a's, $s's, $v's, %f's, $sp and $fp will be reset, so any data you want to use later will have to go to the stack either through permanent registers such as the ones enumerated before or inside it.
+
+The first thing you have to do is save $ra because otherwise you will end up inside an infinite loop.
+
+$sp is used as a reference of the size of the stack, the register that you should modify and use for poping elements is $fp.
+
+First you have to create space in the stack by substracting $sp with the size of the data you want to insert, then you can insert it with the s tag.
+
+As soon as you don't need the registers anymore you should delete that space by first extracting the data with the l tag and afterwards reducing the size of the stack.
+
+Check the guide for the different l and s tags such as sw (words) or sb (bytes).
+
+------------------------------------------------------------------------------------
+
+addu $sp, $sp, -4
+sw $ra, ($sp)
+
+.
+.
+.
+
+lw $ra, ($sp)
+addu $sp, $sp, 4
+
+------------------------------------------------------------------------------------
+
+$sp is in brackets because it is an indirect addressing.
+The stack goes from top to bottom, that's why for creating space we substract (or add negative numbers) and for deleting space we add.
+It is frecuent to use addu instead of add in case we add more space than there really is.
+
+In case you want to use more than 4 parameters you can save $t registers in stack

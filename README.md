@@ -42,6 +42,9 @@ In Mars you can write your code in de Edit Window, or load your '.s' file, click
     - [System calls](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/MIPS%20101/System_calls.s)
     - [Branches](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/MIPS%20101/Branches.s)
     - [Lists](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/MIPS%20101/Lists.s)
+    - [Stack](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/MIPS%20101/Stack.s)
+    - [Stack frame](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/MIPS%20101/stack_frame.png)
+    - [Functions](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/MIPS%20101/Functions.s)
 3. [Examples](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/tree/master/Examples)
 
 ## Credits:
