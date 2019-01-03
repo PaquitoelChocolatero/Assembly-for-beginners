@@ -1,6 +1,8 @@
 # Assembly for Beginners
 [![HitCount](http://hits.dwyl.io/PaquitoElChocolatero/Assembly-for-beginners.svg)](http://hits.dwyl.io/PaquitoElChocolatero/Assembly-for-beginners)<br />
-In this repository you will find a beginner's guide to MIPS programming
+In this repository you will find a beginner's guide to MIPS programming<br />
+<br />
+Every example used can be run to see the output in first person<br />
 
 ## Getting Started
 Assembly files use the ".s" extension<br />
@@ -33,7 +35,8 @@ In Mars you can write your code in de Edit Window, or load your '.s' file, click
 
 ## Index of contents:
 
-1. [Basic Operations](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Basic_operations.s)
+1. [MIPS 101](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/tree/master/MIPS%20101)
+    1.1. [Basic operations](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/MIPS%20101/Basic_operations.s)
 
 
 ## Credits:
