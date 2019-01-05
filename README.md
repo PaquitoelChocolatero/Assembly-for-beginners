@@ -2,7 +2,7 @@
 [![HitCount](http://hits.dwyl.io/PaquitoElChocolatero/Assembly-for-beginners.svg)](http://hits.dwyl.io/PaquitoElChocolatero/Assembly-for-beginners)<br />
 In this repository you will find a beginner's guide to MIPS programming<br />
 <br />
-Every example used can be run to see the output in first person<br />
+Every example used can be run so you can see what the output is.<br />
 
 ## Getting Started
 Assembly files use the ".s" extension<br />
