@@ -6,7 +6,7 @@ For so we need an agreement over the registers we are using and what are their r
     o $f12-$f15 are parameters that store double
     o $t0-$t9 are temporary registers
     o $v0-$v2 are the outcomes of the functions
-    o $s 0-7 registers (save) are meant to store user information, and need to be saved before using them, and restore them after
+    o $s0-$s7 registers (save) are meant to store user information, and need to be saved before using them, and restore them after
     o $ra is the register that automatically saves the exit position of the function
     o $sp reserved s register wich is meant to store the current position of the stack pointer
     o $fp is another register in stack that stores the position
