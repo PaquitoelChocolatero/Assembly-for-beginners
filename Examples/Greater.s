@@ -17,17 +17,18 @@ main:
   move $t1 $v0
 
   bgt $t0, $t1 first                    #If first is greater
+
   beq $t0, $t1 equals                   #If they are equal
 
   li $v0 1                              #If second is greater
   move $a0 $t1
-  syscall                               #Print big number
+  syscall                               #Print bigest number
   li $v0 4
   la $a0 greater
-  syscall                               #Print string
+  syscall                               #Print desired string
   li $v0 1
   move $a0 $t0
-  syscall                               #Print little number
+  syscall                               #Print the other number
   b end                                 #Go to end of code
 
 first:

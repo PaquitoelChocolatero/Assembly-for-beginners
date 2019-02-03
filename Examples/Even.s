@@ -10,7 +10,7 @@ m_ne: .asciiz "The number is odd"
 
 main:
 
-  li $v0 5                             #First number
+  li $v0 5                             #Read from screen the number
   syscall
   move $t0 $v0
 

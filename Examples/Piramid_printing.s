@@ -29,7 +29,7 @@ loop:
   addi $t1 $t1, 1                 #Increment meter
   add $a0 $a0, $t1                #Add meter
 
-  move $t3 $a0                    #23-28 save number, print new line and recover number
+  move $t3 $a0                    #Save number, print new line and recover number
   li $v0 4
   la $a0 line
   syscall

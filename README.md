@@ -46,11 +46,13 @@ In Mars you can write your code in de Edit Window, or load your '.s' file, click
     - [Stack frame](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/tree/master/MIPS%20101/Stack_frame)
     - [Functions](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/MIPS%20101/Functions.s)
 3. [Examples](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/tree/master/Examples)
+    - [Add Consecutive Numbers](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Examples/Add_consecutive_numbers.s)
+    - [Even](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Examples/Even.s)
+    - [Greater](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Examples/Greater.s)
+    - [Piramid Printing](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Examples/Piramid_printing.s)
 
 ## Credits:
 
-- [Guillermo Bautista-Abad](https://github.com/Fortesque73)
-- [Alejandro de la Torre](https://github.com/Xartrex)
+- [Guillermo Bautista-Abad](https://github.com/commonhater)
 - [Juan Francisco García](https://github.com/hielo99)
-- [Juan Banga](https://github.com/Juanbanpar)
 - [Alejandro de la Cruz](https://github.com/PaquitoElChocolatero)
