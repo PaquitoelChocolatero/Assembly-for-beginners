@@ -50,9 +50,12 @@ In Mars you can write your code in de Edit Window, or load your '.s' file, click
     - [Even](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Examples/Even.s)
     - [Greater](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Examples/Greater.s)
     - [Piramid Printing](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Examples/Piramid_printing.s)
+    - [Vectors](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Examples/Vector.s)
+    - [Calculator](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Examples/Calculator.s)
 
 ## Credits:
 
 - [Guillermo Bautista-Abad](https://github.com/commonhater)
 - [Juan Francisco García](https://github.com/hielo99)
 - [Alejandro de la Cruz](https://github.com/PaquitoElChocolatero)
+- [Alejandro de la Torre](https://github.com/Xartrex)

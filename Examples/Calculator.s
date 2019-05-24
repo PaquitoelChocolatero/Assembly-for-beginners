@@ -7,12 +7,14 @@
 
 
 .data
-  ope: .asciiz "Que operación quieres hacer?:\n 1)Sumar \n 2)Restar \n 3)Multiplicar \n  4)Dividir \n"
+  ope: .asciiz "\nQue operación quieres hacer?:\n 1)Sumar \n 2)Restar \n 3)Multiplicar \n  4)Dividir \n"
   cual: .asciiz "Hola, introduce los 2 numeros con los que quieras operar: \n"
   peke: .asciiz "El numero que intentas dividir es mas pequeño que por el que divides, prueba otros\n"
   eng: .asciiz "El numero introducido no es una opcion, introduzca otro número\n"
   rep: .asciiz "Introduce de nuevo 2 números\n"
-  buffer: .space 16
+ cont: .asciiz "Quieres continuar operando (s/N)?:\t"
+ adios: .asciiz "\nSee you"
+ buffer: .space 16
 .text
 .globl main
   main:
@@ -69,13 +71,27 @@
 			   b ini
 
       fin:
-            lw $ra ($sp)	
-            lw $fp 4($sp)
-            addi $sp $sp 8
-
+			la $a0 '\n'
+			li $v0 11
+			syscall
             #Recuperamos todos los registros que salvamos al principio
             #Asi el $ra y el $fp en este caso, se restauran y podemos salir
 
+		#Quieres seguir?
+	        la $a0 cont
+			li $v0 4
+			syscall
+			li $v0 12
+			syscall 
+			li $t0 's'
+			beq $t0 $v0 ini
+			la $a0 adios
+			li $v0 4
+			syscall
+
+            lw $ra ($sp)	
+            lw $fp 4($sp)
+            addi $sp $sp 8
             jr $ra
 
 
