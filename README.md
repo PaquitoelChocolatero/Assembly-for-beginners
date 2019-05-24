@@ -5,7 +5,8 @@ In this repository you will find a beginner's guide to MIPS programming<br />
 Every example used can be run so you can see what the output is.<br />
 
 ## Getting Started
-Assembly files use the ".s" extension<br />
+A
+ssembly files use the ".s" extension<br />
 <br />
 The structure is the following:<br />
 tag , dest , rs1 , rs2<br />
@@ -34,6 +35,7 @@ In Mars you can write your code in de Edit Window, or load your '.s' file, click
 <br />
 
 ## Index of contents:
+
 1. [Guides](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/tree/master/Guides)
     - [Spanish](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Guides/MIPS_guide(Spanish).pdf)
     - [English](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Guides/MIPS_guide(English).pdf)
@@ -50,7 +52,7 @@ In Mars you can write your code in de Edit Window, or load your '.s' file, click
     - [Even](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Examples/Even.s)
     - [Greater](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Examples/Greater.s)
     - [Piramid Printing](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Examples/Piramid_printing.s)
-    - [Vectors](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Examples/Vector.s)
+    - [Vectors](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Examples/Vectors.s)
     - [Calculator](https://github.com/PaquitoelChocolatero/Assembly-for-beginners/blob/master/Examples/Calculator.s)
 
 ## Credits:
