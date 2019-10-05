@@ -12,7 +12,7 @@
   peke: .asciiz "El numero que intentas dividir es mas pequeño que por el que divides, prueba otros\n"
   eng: .asciiz "El numero introducido no es una opcion, introduzca otro número\n"
   rep: .asciiz "Introduce de nuevo 2 números\n"
- cont: .asciiz "Quieres continuar operando (s/N)?:\t"
+ cont: .asciiz "Quieres continuar operando (S/N)?:\t"
  adios: .asciiz "\nSee you"
  buffer: .space 16
 .text
@@ -81,8 +81,10 @@
 	        la $a0 cont
 			li $v0 4
 			syscall
+
 			li $v0 12
-			syscall 
+			syscall
+
 			li $t0 's'
 			beq $t0 $v0 ini
 			la $a0 adios
@@ -96,7 +98,8 @@
 
 
 	#La funciones no alteran registros $an ni $sn, ni queremos los que si utiliza($a0), 
-	#asi que no guardamos ni recuperamos registros en pila
+	#asi que no guardamos ni recuperamos registros en pila, aunque generalmente al usar
+	#el registro $a0 deberiamos guardarlo por convenio
             sumar:
                   add $v0 $a2 $a1
                   move $a0 $v0
